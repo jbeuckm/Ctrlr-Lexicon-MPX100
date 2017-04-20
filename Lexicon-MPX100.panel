@@ -131,7 +131,7 @@
                uiTabsFrontTabOutlineColour="0xff000000" uiTabsFrontTabTextColour="0xff000000"
                uiTabsAddTab="0" uiTabsRemoveTab="0" componentRectangle="16 8 564 368"
                uiType="uiTabs" componentLayerUid="641a7ab2ebc6010000622de2947f0000"
-               uiTabsCurrentTab="3">
+               uiTabsCurrentTab="2">
       <uiTabsTab uiTabsTabIndex="0" uiTabsTabName="Plate" uiTabsTabContentBackgroundColour="ffffff00"
                  uiTabsTabBackgroundColour="ffd3d3d3" uiTabsTabBackgroundImage="-- None"
                  uiTabsTabBackgroundImageLayout="36" uiTabsTabBackgroundImageAlpha="255"/>
@@ -172,7 +172,7 @@
              modulatorCustomIndex="0003 0004 0000 000D" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="modulator-1"
-             modulatorMin="0" modulatorValue="38">
+             modulatorMin="0" modulatorValue="144">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -217,7 +217,7 @@
              modulatorCustomIndex="0003 0004 0000 0014" modulatorCustomName="Reverb Level"
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="Reverb Level"
-             modulatorMin="0" modulatorValue="25">
+             modulatorMin="0" modulatorValue="17">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -262,7 +262,7 @@
              modulatorCustomIndex="0003 0004 0000 000B" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="Echo Feedback Left"
-             modulatorMin="0" modulatorValue="30">
+             modulatorMin="0" modulatorValue="27">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -307,7 +307,7 @@
              modulatorCustomIndex="0003 0004 0000 000C" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="Echo Feedback Right"
-             modulatorMin="0" modulatorValue="30">
+             modulatorMin="0" modulatorValue="27">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -352,7 +352,7 @@
              modulatorCustomIndex="0003 0004 0000 0007" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="RefDelayL" modulatorMin="0"
-             modulatorValue="463">
+             modulatorValue="0">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -397,7 +397,7 @@
              modulatorCustomIndex="0003 0004 0000 0005" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="RefLvlL" modulatorMin="0"
-             modulatorValue="12">
+             modulatorValue="0">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -442,7 +442,7 @@
              modulatorCustomIndex="0003 0004 0000 000E" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="Diffusion" modulatorMin="0"
-             modulatorValue="66">
+             modulatorValue="100">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -487,7 +487,7 @@
              modulatorCustomIndex="0003 0004 0001 0000" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="BasMult" modulatorMin="0"
-             modulatorValue="6">
+             modulatorValue="8">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -607,7 +607,7 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="232 48 64 64"
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="344 16 64 64"
                componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
                componentTabId="2"/>
   </modulator>
@@ -652,7 +652,7 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="368 64 64 64"
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="408 16 64 64"
                componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
                componentTabId="2"/>
   </modulator>
@@ -697,7 +697,7 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="208 128 64 64"
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="280 16 64 64"
                componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
                componentTabId="2"/>
   </modulator>
@@ -742,7 +742,7 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="288 120 64 64"
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="152 224 64 64"
                componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
                componentTabId="2"/>
   </modulator>
@@ -787,7 +787,7 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="168 184 64 64"
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="152 16 64 64"
                componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
                componentTabId="2"/>
   </modulator>
@@ -832,7 +832,7 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="120 56 64 64"
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="88 88 64 64"
                componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
                componentTabId="2"/>
   </modulator>
@@ -877,7 +877,7 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="272 56 64 64"
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="24 88 64 64"
                componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
                componentTabId="2"/>
   </modulator>
@@ -922,7 +922,7 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="32 168 64 64"
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="88 152 64 64"
                componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
                componentTabId="2"/>
   </modulator>
@@ -967,7 +967,7 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="304 48 64 64"
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="24 152 64 64"
                componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
                componentTabId="2"/>
   </modulator>
@@ -1012,7 +1012,7 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="48 80 64 64"
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="88 16 64 64"
                componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
                componentTabId="2"/>
   </modulator>
@@ -1027,7 +1027,7 @@
              modulatorCustomIndex="0003 0004 0002 000b" modulatorCustomName="Duration"
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="Shape" modulatorMin="0"
-             modulatorValue="239">
+             modulatorValue="255">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -1057,7 +1057,7 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="112 120 64 64"
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="24 224 64 64"
                componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
                componentTabId="2"/>
   </modulator>
@@ -1072,7 +1072,7 @@
              modulatorCustomIndex="0003 0004 0002 000c" modulatorCustomName="Duration"
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="Spread" modulatorMin="0"
-             modulatorValue="0">
+             modulatorValue="255">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -1102,7 +1102,7 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="168 48 64 64"
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="216 16 64 64"
                componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
                componentTabId="2"/>
   </modulator>
@@ -1147,7 +1147,7 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="248 144 64 64"
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="88 224 64 64"
                componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
                componentTabId="2"/>
   </modulator>
@@ -1192,7 +1192,7 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="360 152 64 64"
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="216 224 64 64"
                componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
                componentTabId="2"/>
   </modulator>
@@ -1207,7 +1207,7 @@
              modulatorCustomIndex="0003 0004 0003 0000" modulatorCustomName="Duration"
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="Ambience" modulatorMin="0"
-             modulatorValue="40">
+             modulatorValue="63">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -1283,7 +1283,7 @@
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
                uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="128 48 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="152 16 64 64"
                uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="50" vstIndex="3000" modulatorIsStatic="0"
@@ -1297,7 +1297,7 @@
              modulatorCustomIndex="0003 0004 0003 0002" modulatorCustomName="Duration"
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="Ambience-2"
-             modulatorMin="0" modulatorValue="13">
+             modulatorMin="0" modulatorValue="0">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -1328,7 +1328,7 @@
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
                uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="216 64 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="88 16 64 64"
                uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="144" vstIndex="3001" modulatorIsStatic="0"
@@ -1342,7 +1342,7 @@
              modulatorCustomIndex="0003 0004 0003 0003" modulatorCustomName="Duration"
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="Ambience-3"
-             modulatorMin="0" modulatorValue="102">
+             modulatorMin="0" modulatorValue="144">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -1373,7 +1373,7 @@
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
                uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="272 72 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="216 16 64 64"
                uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="100" vstIndex="3002" modulatorIsStatic="0"
@@ -1387,7 +1387,7 @@
              modulatorCustomIndex="0003 0004 0003 0004" modulatorCustomName="Duration"
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="Ambience-4"
-             modulatorMin="0" modulatorValue="64">
+             modulatorMin="0" modulatorValue="100">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -1418,7 +1418,7 @@
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
                uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="344 88 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="280 16 64 64"
                uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="50" vstIndex="3003" modulatorIsStatic="0"
@@ -1432,7 +1432,7 @@
              modulatorCustomIndex="0003 0004 0003 0005" modulatorCustomName="Duration"
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="Ambience-5"
-             modulatorMin="0" modulatorValue="23">
+             modulatorMin="0" modulatorValue="36">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -1463,7 +1463,7 @@
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
                uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="88 216 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="24 96 64 64"
                uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="255" vstIndex="3004" modulatorIsStatic="0"
@@ -1477,7 +1477,7 @@
              modulatorCustomIndex="0003 0004 0003 0006" modulatorCustomName="Duration"
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="Ambience-6"
-             modulatorMin="0" modulatorValue="162">
+             modulatorMin="0" modulatorValue="218">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -1508,7 +1508,7 @@
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
                uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="136 200 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="88 96 64 64"
                uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="25" vstIndex="3005" modulatorIsStatic="0"
@@ -1522,7 +1522,7 @@
              modulatorCustomIndex="0003 0004 0003 0007" modulatorCustomName="Duration"
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="Ambience-7"
-             modulatorMin="0" modulatorValue="25">
+             modulatorMin="0" modulatorValue="22">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -1553,7 +1553,7 @@
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
                uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="208 208 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="152 96 64 64"
                uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="60" vstIndex="3006" modulatorIsStatic="0"
@@ -1567,7 +1567,7 @@
              modulatorCustomIndex="0003 0004 0003 0008" modulatorCustomName="Duration"
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="Ambience-8"
-             modulatorMin="0" modulatorValue="57">
+             modulatorMin="0" modulatorValue="60">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -1598,7 +1598,7 @@
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
                uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="312 224 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="216 96 64 64"
                uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="25" vstIndex="3007" modulatorIsStatic="0"
@@ -1643,7 +1643,7 @@
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
                uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="376 192 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="280 96 64 64"
                uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="60" vstIndex="3009" modulatorIsStatic="0"
@@ -1657,7 +1657,7 @@
              modulatorCustomIndex="0003 0004 0001 0001" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="BasMult-2" modulatorMin="0"
-             modulatorValue="44">
+             modulatorValue="50">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -1702,7 +1702,7 @@
              modulatorCustomIndex="0003 0004 0001 0002" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="BasMult-3" modulatorMin="0"
-             modulatorValue="14">
+             modulatorValue="30">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -1747,7 +1747,7 @@
              modulatorCustomIndex="0003 0004 0001 0003" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="BasMult-4" modulatorMin="0"
-             modulatorValue="8">
+             modulatorValue="34">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -1792,7 +1792,7 @@
              modulatorCustomIndex="0003 0004 0001 0004" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="BasMult-5" modulatorMin="0"
-             modulatorValue="2">
+             modulatorValue="0">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -1837,7 +1837,7 @@
              modulatorCustomIndex="0003 0004 0001 0005" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="BasMult-6" modulatorMin="0"
-             modulatorValue="25">
+             modulatorValue="0">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -1882,7 +1882,7 @@
              modulatorCustomIndex="0003 0004 0001 0006" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="BasMult-7" modulatorMin="0"
-             modulatorValue="25">
+             modulatorValue="0">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -2107,7 +2107,7 @@
              modulatorCustomIndex="0003 0004 0001 000b" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="BasMult-12"
-             modulatorMin="0" modulatorValue="30">
+             modulatorMin="0" modulatorValue="9">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -2152,7 +2152,7 @@
              modulatorCustomIndex="0003 0004 0001 000c" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="BasMult-13"
-             modulatorMin="0" modulatorValue="30">
+             modulatorMin="0" modulatorValue="8">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -2197,7 +2197,7 @@
              modulatorCustomIndex="0003 0004 0001 000d" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="BasMult-14"
-             modulatorMin="0" modulatorValue="108">
+             modulatorMin="0" modulatorValue="144">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -2242,7 +2242,7 @@
              modulatorCustomIndex="0003 0004 0001 000e" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="BasMult-15"
-             modulatorMin="0" modulatorValue="83">
+             modulatorMin="0" modulatorValue="41">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -2287,7 +2287,7 @@
              modulatorCustomIndex="0003 0004 0001 000f" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="BasMult-16"
-             modulatorMin="0" modulatorValue="20">
+             modulatorMin="0" modulatorValue="0">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -2332,7 +2332,7 @@
              modulatorCustomIndex="0003 0004 0001 0010" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="BasMult-17"
-             modulatorMin="0" modulatorValue="255">
+             modulatorMin="0" modulatorValue="0">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -2467,7 +2467,7 @@
              modulatorCustomIndex="0003 0004 0001 0013" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="BasMult-20"
-             modulatorMin="0" modulatorValue="34">
+             modulatorMin="0" modulatorValue="57">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>

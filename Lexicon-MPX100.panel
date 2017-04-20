@@ -94,7 +94,7 @@
   <uiPanelEditor uiPanelCanvasRectangle="0 0 600 487" uiPanelSnapSize="8" uiPanelBackgroundColour="0xffffffff"
                  uiPanelBackgroundColour1="0xffffffff" uiPanelBackgroundColour2="0xffffffff"
                  uiPanelBackgroundGradientType="1" uiPanelImageResource="-- None"
-                 uiPanelEditMode="0" uiPanelLock="0" uiPanelDisabledOnEdit="0"
+                 uiPanelEditMode="1" uiPanelLock="0" uiPanelDisabledOnEdit="0"
                  uiPanelMenuBarVisible="1" uiPanelMenuBarHideOnExport="0" uiPanelWidth="400"
                  uiPanelHeight="400" name="Lexicon MPX100" uiPanelImageAlpha="255"
                  uiPanelImageLayout="64" uiPanelSnapActive="1" uiPanelPropertiesOnRight="0"
@@ -131,7 +131,7 @@
                uiTabsFrontTabOutlineColour="0xff000000" uiTabsFrontTabTextColour="0xff000000"
                uiTabsAddTab="0" uiTabsRemoveTab="0" componentRectangle="16 8 564 368"
                uiType="uiTabs" componentLayerUid="641a7ab2ebc6010000622de2947f0000"
-               uiTabsCurrentTab="2">
+               uiTabsCurrentTab="0">
       <uiTabsTab uiTabsTabIndex="0" uiTabsTabName="Plate" uiTabsTabContentBackgroundColour="ffffff00"
                  uiTabsTabBackgroundColour="ffd3d3d3" uiTabsTabBackgroundImage="-- None"
                  uiTabsTabBackgroundImageLayout="36" uiTabsTabBackgroundImageAlpha="255"/>
@@ -248,7 +248,7 @@
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
                uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="80 8 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="72 8 64 64"
                uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="30" vstIndex="2969" modulatorIsStatic="0"
@@ -293,7 +293,7 @@
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
                uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="152 8 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="8 80 64 64"
                uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="30" vstIndex="2970" modulatorIsStatic="0"
@@ -337,7 +337,7 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="224 8 64 64"
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="136 80 64 64"
                componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
                componentTabId="0"/>
   </modulator>
@@ -383,7 +383,7 @@
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
                uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="56 128 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="72 80 64 64"
                uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="25" vstIndex="2972" modulatorIsStatic="0"
@@ -397,7 +397,7 @@
              modulatorCustomIndex="0003 0004 0000 0005" modulatorCustomName=""
              modulatorCustomIndexGroup="02" modulatorCustomNameGroup="" modulatorVstNameFormat="%n"
              luaModulatorValueChange="modulatorChanged" name="RefLvlL" modulatorMin="0"
-             modulatorValue="0">
+             modulatorValue="7">
     <midi midiMessageType="9" midiMessageChannelOverride="0" midiMessageChannel="1"
           midiMessageCtrlrNumber="1" midiMessageCtrlrValue="0" midiMessageMultiList=""
           midiMessageSysExFormula=""/>
@@ -427,7 +427,7 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="136 128 64 64"
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="200 80 64 64"
                componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
                componentTabId="0"/>
   </modulator>
@@ -473,7 +473,7 @@
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
                uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="8 72 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="136 8 64 64"
                uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="9" vstIndex="2974" modulatorIsStatic="0"

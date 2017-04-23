@@ -91,24 +91,28 @@
     </luaManagerMethods>
   </luaManager>
   <panelResources>
-    <resource resourceHash="-5794669400535306100" resourceLoadedTime="1492964904486"
+    <resource resourceHash="-5794669400535306100" resourceLoadedTime="1492966791937"
               resourceSize="560043" resourceFile="Black Plastic small 01.png"
               resourceSourceFile="/Users/joebeuckman/Documents/Ctrlr-Lexicon-MPX100/Black Plastic small 01.png"
               resourceName="Black Plastic small 01" resourceType="Image"/>
+    <resource resourceHash="6979323601321623058" resourceLoadedTime="1492966791944"
+              resourceSize="15315" resourceFile="logo.png" resourceSourceFile="/Users/joebeuckman/Documents/Ctrlr-Lexicon-MPX100/logo.png"
+              resourceName="logo" resourceType="Image"/>
   </panelResources>
-  <uiPanelEditor uiPanelCanvasRectangle="0 0 600 487" uiPanelSnapSize="8" uiPanelBackgroundColour="0xffffffff"
-                 uiPanelBackgroundColour1="0xffffffff" uiPanelBackgroundColour2="0xffffffff"
+  <uiPanelEditor uiPanelCanvasRectangle="0 0 600 487" uiPanelSnapSize="8" uiPanelBackgroundColour="ff000000"
+                 uiPanelBackgroundColour1="ff000000" uiPanelBackgroundColour2="ff5577dd"
                  uiPanelBackgroundGradientType="1" uiPanelImageResource="-- None"
-                 uiPanelEditMode="0" uiPanelLock="0" uiPanelDisabledOnEdit="0"
-                 uiPanelMenuBarVisible="1" uiPanelMenuBarHideOnExport="0" uiPanelWidth="400"
-                 uiPanelHeight="400" name="Lexicon MPX100" uiPanelImageAlpha="255"
-                 uiPanelImageLayout="64" uiPanelSnapActive="1" uiPanelPropertiesOnRight="0"
-                 luaPanelPaintBackground="-- None" luaPanelResized="-- None" luaPanelFileDragDropHandler="-- None"
+                 uiPanelEditMode="1" uiPanelViewPortSize="814" uiPanelPropertiesSize="763"
+                 uiPanelLock="0" uiPanelDisabledOnEdit="0" uiPanelMenuBarVisible="1"
+                 uiPanelMenuBarHideOnExport="0" uiPanelWidth="400" uiPanelHeight="400"
+                 name="Lexicon MPX100" uiPanelImageAlpha="255" uiPanelImageLayout="64"
+                 uiPanelSnapActive="1" uiPanelPropertiesOnRight="0" luaPanelPaintBackground="-- None"
+                 luaPanelResized="-- None" luaPanelFileDragDropHandler="-- None"
                  luaPanelFileDragEnterHandler="-- None" luaPanelFileDragExitHandler="-- None"
                  uiPanelInvisibleComponentAlpha="0.5" uiPanelTooltipBackgroundColour="0xffeeeebb"
                  uiPanelTooltipOutlineColour="0xff000000" uiPanelTooltipColour="0xff000000"
                  uiPanelTooltipCornerRound="1" uiPanelTooltipPlacement="2" uiPanelTooltipFont="&lt;Sans-Serif&gt;;15;1;0;0;0;1;3"
-                 uiPanelZoom="1" uiPanelPropertiesSize="763" uiPanelViewPortSize="814">
+                 uiPanelZoom="1">
     <uiPanelCanvasLayer uiPanelCanvasLayerName="New layer" uiPanelCanvasLayerUid="641a7ab2ebc6010000622de2947f0000"
                         uiPanelCanvasLayerColour="0x000000" uiPanelCanvasLayerVisibility="1"
                         uiPanelCanvasLayerIndex="0"/>
@@ -117,8 +121,8 @@
              modulatorIsStatic="1" name="algorithm" modulatorVstExported="0"
              modulatorValue="0">
     <component componentLabelPosition="top" componentLabelJustification="centred"
-               componentLabelHeight="14" componentLabelWidth="0" componentLabelVisible="1"
-               componentLabelAlwaysOnTop="1" componentSentBack="0" componentLabelColour="0xff000000"
+               componentLabelHeight="14" componentLabelWidth="0" componentLabelVisible="0"
+               componentLabelAlwaysOnTop="1" componentSentBack="0" componentLabelColour="ffffffff"
                componentLabelFont="&lt;Sans-Serif&gt;;12;0;0;0;0;1;3" componentVisibleName="algorithm"
                componentMouseCursor="2" componentGroupName="" componentGroupped="0"
                componentSnapSize="0" componentIsLocked="0" componentDisabled="0"
@@ -130,13 +134,13 @@
                componentLuaMouseDoubleClick="-- None" uiTabsCurrentTabChanged="modulatorChanged"
                uiTabsDepth="24" uiTabsOutlineThickness="2" uiTabsFrontTabOutline="1"
                uiTabsTabOutline="1" uiTabsIndentThickness="0" uiTabsOrientation="0"
-               uiTabsFrontTabFont="&lt;Sans-Serif&gt;;16;0;0;0;0;1;3" uiTabsTabFont="&lt;Sans-Serif&gt;;16;0;0;0;0;1;3"
+               uiTabsFrontTabFont="&lt;Sans-Serif&gt;;15;0;0;0;0;1;3" uiTabsTabFont="&lt;Sans-Serif&gt;;16;0;0;0;0;1;3"
                uiTabsOutlineGlobalColour="0x00000000" uiTabsOutlineGlobalBackgroundColour="0x67000000"
                uiTabsOutlineTabColour="0xff303030" uiTabsTextTabColour="0xff909090"
                uiTabsFrontTabOutlineColour="0xff000000" uiTabsFrontTabTextColour="0xff000000"
-               uiTabsAddTab="0" uiTabsRemoveTab="0" componentRectangle="16 8 564 368"
-               uiType="uiTabs" componentLayerUid="641a7ab2ebc6010000622de2947f0000"
-               uiTabsCurrentTab="4">
+               uiTabsAddTab="0" uiTabsRemoveTab="0" componentRectangle="16 56 564 411"
+               uiTabsCurrentTab="5" componentLayerUid="641a7ab2ebc6010000622de2947f0000"
+               uiType="uiTabs">
       <uiTabsTab uiTabsTabIndex="0" uiTabsTabName="Plate" uiTabsTabContentBackgroundColour="ffffff00"
                  uiTabsTabBackgroundColour="ffd3d3d3" uiTabsTabBackgroundImage="-- None"
                  uiTabsTabBackgroundImageLayout="36" uiTabsTabBackgroundImageAlpha="255"/>
@@ -207,9 +211,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="8 16 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="1"/>
+               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="8 16 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="112" vstIndex="2983" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -252,9 +256,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="2" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="24 16 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="24 16 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="2"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="31" vstIndex="2984" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -297,9 +301,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="344 16 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="2"/>
+               uiSliderPopupBubble="0" componentTabId="2" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="344 16 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="31" vstIndex="2985" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -342,9 +346,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="408 16 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="2"/>
+               uiSliderPopupBubble="0" componentTabId="2" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="408 16 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="60" vstIndex="2986" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -387,9 +391,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="280 16 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="2"/>
+               uiSliderPopupBubble="0" componentTabId="2" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="280 16 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="60" vstIndex="2987" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -432,9 +436,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="152 224 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="2"/>
+               uiSliderPopupBubble="0" componentTabId="2" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="152 224 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="599" vstIndex="2988" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -477,9 +481,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="152 16 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="2"/>
+               uiSliderPopupBubble="0" componentTabId="2" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="152 16 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="25" vstIndex="2989" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -522,9 +526,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="88 88 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="2"/>
+               uiSliderPopupBubble="0" componentTabId="2" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="88 88 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="500" vstIndex="2990" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -567,9 +571,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="24 88 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="2"/>
+               uiSliderPopupBubble="0" componentTabId="2" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="24 88 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="25" vstIndex="2991" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -612,9 +616,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="88 152 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="2"/>
+               uiSliderPopupBubble="0" componentTabId="2" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="88 152 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="500" vstIndex="2992" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -657,9 +661,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="24 152 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="2"/>
+               uiSliderPopupBubble="0" componentTabId="2" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="24 152 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="100" vstIndex="2993" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -702,9 +706,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="88 16 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="2"/>
+               uiSliderPopupBubble="0" componentTabId="2" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="88 16 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="255" vstIndex="2994" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -747,9 +751,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="24 224 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="2"/>
+               uiSliderPopupBubble="0" componentTabId="2" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="24 224 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="255" vstIndex="2995" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -792,9 +796,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="216 16 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="2"/>
+               uiSliderPopupBubble="0" componentTabId="2" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="216 16 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="60" vstIndex="2996" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -837,9 +841,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="88 224 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="2"/>
+               uiSliderPopupBubble="0" componentTabId="2" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="88 224 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="25" vstIndex="2997" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -882,9 +886,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="216 224 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="2"/>
+               uiSliderPopupBubble="0" componentTabId="2" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="216 224 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="63" vstIndex="2998" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -927,9 +931,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="24 16 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="3"/>
+               uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="24 16 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="60" vstIndex="2999" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -972,9 +976,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="152 16 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="152 16 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="3"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="50" vstIndex="3000" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1017,9 +1021,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="88 16 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="88 16 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="3"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="144" vstIndex="3001" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1062,9 +1066,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="216 16 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="216 16 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="3"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="100" vstIndex="3002" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1107,9 +1111,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="280 16 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="280 16 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="3"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="50" vstIndex="3003" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1152,9 +1156,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="24 96 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="24 96 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="3"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="255" vstIndex="3004" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1197,9 +1201,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="88 96 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="88 96 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="3"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="25" vstIndex="3005" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1242,9 +1246,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="152 96 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="152 96 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="3"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="60" vstIndex="3006" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1287,9 +1291,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="216 96 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="216 96 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="3"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="25" vstIndex="3007" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1332,9 +1336,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="3" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="280 96 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="280 96 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="3"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="60" vstIndex="3009" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1377,9 +1381,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="72 16 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="72 16 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="60" vstIndex="3010" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1422,9 +1426,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="136 16 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="136 16 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="60" vstIndex="3011" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1467,9 +1471,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="200 16 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="200 16 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="60" vstIndex="3012" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1512,9 +1516,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="264 16 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="264 16 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="25" vstIndex="3013" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1557,9 +1561,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="8 88 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="8 88 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="25" vstIndex="3014" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1602,9 +1606,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="8 160 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="8 160 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="599" vstIndex="3015" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1647,9 +1651,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="72 88 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="72 88 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="599" vstIndex="3016" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1692,9 +1696,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="72 160 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="72 160 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="599" vstIndex="3017" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1737,9 +1741,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="136 88 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="136 88 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="599" vstIndex="3018" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1782,9 +1786,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="136 160 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="136 160 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="30" vstIndex="3019" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1827,9 +1831,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="200 88 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="200 88 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="30" vstIndex="3020" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1872,9 +1876,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="200 160 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="200 160 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="144" vstIndex="3021" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1917,9 +1921,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="8 232 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="8 232 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="100" vstIndex="3022" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -1962,9 +1966,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="72 232 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="72 232 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="50" vstIndex="3023" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2007,9 +2011,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="136 232 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="136 232 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="255" vstIndex="3024" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2052,9 +2056,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="200 232 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="200 232 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="255" vstIndex="3025" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2097,9 +2101,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="264 232 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="264 232 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="255" vstIndex="3026" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2142,9 +2146,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="328 232 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="328 232 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="60" vstIndex="3027" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2187,9 +2191,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="392 232 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="392 232 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="1"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="25" vstIndex="3028" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2232,9 +2236,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="456 232 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="1"/>
+               uiSliderPopupBubble="0" componentTabId="1" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="456 232 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="60" vstIndex="3029" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2277,9 +2281,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="144 24 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="144 24 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="60" vstIndex="3030" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2322,9 +2326,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="80 24 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="80 24 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="9" vstIndex="3031" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2367,9 +2371,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="16 24 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="16 24 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="0"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="60" vstIndex="3032" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2412,9 +2416,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="208 24 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="208 24 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="60" vstIndex="3033" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2457,9 +2461,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="272 24 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="272 24 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="25" vstIndex="3034" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2502,9 +2506,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="16 96 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="16 96 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="599" vstIndex="3035" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2547,9 +2551,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="80 96 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="80 96 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="599" vstIndex="3036" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2592,9 +2596,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="144 96 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="144 96 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="30" vstIndex="3037" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2637,9 +2641,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="208 96 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="208 96 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="25" vstIndex="3038" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2682,9 +2686,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="16 168 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="16 168 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="599" vstIndex="3039" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2727,9 +2731,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="80 168 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="80 168 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="599" vstIndex="3040" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2772,9 +2776,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="144 168 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="144 168 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="30" vstIndex="3041" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2817,9 +2821,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="208 168 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="208 168 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="144" vstIndex="3042" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2862,9 +2866,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="16 240 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="16 240 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="100" vstIndex="3043" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2907,9 +2911,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="80 240 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="80 240 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="50" vstIndex="3044" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2952,9 +2956,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="144 240 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="144 240 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="255" vstIndex="3045" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -2997,9 +3001,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="208 240 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="208 240 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="255" vstIndex="3046" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -3042,9 +3046,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="272 240 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="272 240 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="255" vstIndex="3047" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -3087,9 +3091,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="336 240 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="336 240 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="60" vstIndex="3048" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -3132,9 +3136,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="400 240 64 64"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
-               componentTabId="0"/>
+               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="400 240 64 64"
+               uiType="uiSlider"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="25" vstIndex="3049" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -3177,9 +3181,9 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentTabId="0" componentTabName="algorithm"
-               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="464 240 64 64"
-               uiType="uiSlider"/>
+               uiSliderPopupBubble="0" uiType="uiSlider" componentRectangle="464 240 64 64"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentTabName="algorithm"
+               componentTabId="0"/>
   </modulator>
   <modulator modulatorVstExported="1" modulatorMax="127" vstIndex="3050" modulatorIsStatic="0"
              modulatorGlobalVariable="-1" modulatorMuteOnStart="0" modulatorMute="0"
@@ -3217,8 +3221,94 @@
                uiSliderVelocitySensitivity="1" uiSliderVelocityThreshold="1"
                uiSliderVelocityOffset="0" uiSliderVelocityMode="0" uiSliderVelocityModeKeyTrigger="1"
                uiSliderSpringMode="0" uiSliderSpringValue="0" uiSliderMouseWheelInterval="1"
-               uiSliderPopupBubble="0" componentLayerUid="641a7ab2ebc6010000622de2947f0000"
-               componentRectangle="88 64 64 64" uiType="uiImageSlider" componentTabName="algorithm"
-               componentTabId="4"/>
+               uiSliderPopupBubble="0" componentTabId="4" componentTabName="algorithm"
+               uiType="uiImageSlider" componentRectangle="88 64 64 64" componentLayerUid="641a7ab2ebc6010000622de2947f0000"/>
+  </modulator>
+  <modulator modulatorCustomIndex="0" modulatorCustomIndexGroup="0" modulatorIsStatic="1"
+             name="modulator-2" modulatorVstExported="0" modulatorValue="0">
+    <component componentLabelPosition="top" componentLabelJustification="centred"
+               componentLabelHeight="14" componentLabelWidth="0" componentLabelVisible="0"
+               componentLabelAlwaysOnTop="1" componentSentBack="0" componentLabelColour="0xff000000"
+               componentLabelFont="&lt;Sans-Serif&gt;;12;0;0;0;0;1;3" componentVisibleName="modulator-2"
+               componentMouseCursor="2" componentGroupName="" componentGroupped="0"
+               componentSnapSize="0" componentIsLocked="0" componentDisabled="0"
+               componentRadioGroupId="0" componentRadioGroupNotifyMidi="1" componentVisibility="1"
+               componentEffect="0" componentEffectRadius="1" componentEffectColour="0xff000000"
+               componentEffectOffsetX="0" componentEffectOffsetY="0" componentExcludedFromLabelDisplay="0"
+               componentValueDecimalPlaces="0" componentLuaMouseMoved="-- None"
+               componentLuaMouseDown="-- None" componentLuaMouseDrag="-- None"
+               componentLuaMouseDoubleClick="-- None" uiLabelBgColour="ff5577dd"
+               uiLabelTextColour="ffffffff" uiLabelOutline="0" uiLabelOutlineColour="0x00000000"
+               uiLabelJustification="centred" uiLabelFitFont="0" uiLabelFont="Apple SD Gothic Neo;32;1;0;0;0;1;0"
+               uiLabelText=" MPX 100 " uiLabelDisplaysAllValues="0" uiLabelDisplayFormat="%n(%N) = %v(%h)"
+               uiLabelInputHighlightTextColour="0xffffffff" uiLabelInputHighlightColour="0xff0000ff"
+               uiLabelEditOnSingleClick="0" uiLabelEditOnDoubleClick="0" uiLabelEditFocusDiscardsChanges="1"
+               uiLabelInputAllowedChars="" uiLabelInputMaxLength="1024" uiLabelChangedCbk="-- None"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="8 8 129 35"
+               uiType="uiLabel"/>
+  </modulator>
+  <modulator modulatorCustomIndex="0" modulatorCustomIndexGroup="0" modulatorIsStatic="1"
+             name="modulator-3" modulatorVstExported="0" modulatorValue="0">
+    <component componentLabelPosition="top" componentLabelJustification="centred"
+               componentLabelHeight="14" componentLabelWidth="0" componentLabelVisible="0"
+               componentLabelAlwaysOnTop="1" componentSentBack="0" componentLabelColour="0xff000000"
+               componentLabelFont="&lt;Sans-Serif&gt;;12;0;0;0;0;1;3" componentVisibleName="modulator-3"
+               componentMouseCursor="2" componentGroupName="" componentGroupped="0"
+               componentSnapSize="0" componentIsLocked="0" componentDisabled="0"
+               componentRadioGroupId="0" componentRadioGroupNotifyMidi="1" componentVisibility="1"
+               componentEffect="0" componentEffectRadius="1" componentEffectColour="0xff000000"
+               componentEffectOffsetX="0" componentEffectOffsetY="0" componentExcludedFromLabelDisplay="0"
+               componentValueDecimalPlaces="0" componentLuaMouseMoved="-- None"
+               componentLuaMouseDown="-- None" componentLuaMouseDrag="-- None"
+               componentLuaMouseDoubleClick="-- None" uiLabelBgColour="0x00000000"
+               uiLabelTextColour="ffffffff" uiLabelOutline="0" uiLabelOutlineColour="0x00000000"
+               uiLabelJustification="centred" uiLabelFitFont="0" uiLabelFont="&lt;Sans-Serif&gt;;22;0;0;0;0;1;3"
+               uiLabelText="Dual Channel Processor" uiLabelDisplaysAllValues="0"
+               uiLabelDisplayFormat="%n(%N) = %v(%h)" uiLabelInputHighlightTextColour="0xffffffff"
+               uiLabelInputHighlightColour="0xff0000ff" uiLabelEditOnSingleClick="0"
+               uiLabelEditOnDoubleClick="0" uiLabelEditFocusDiscardsChanges="1"
+               uiLabelInputAllowedChars="" uiLabelInputMaxLength="1024" uiLabelChangedCbk="-- None"
+               componentLayerUid="641a7ab2ebc6010000622de2947f0000" componentRectangle="144 3 166 27"
+               uiType="uiLabel"/>
+  </modulator>
+  <modulator modulatorCustomIndex="0" modulatorCustomIndexGroup="0" modulatorIsStatic="1"
+             name="modulator-5" modulatorVstExported="0" modulatorValue="0">
+    <component componentLabelPosition="top" componentLabelJustification="centred"
+               componentLabelHeight="14" componentLabelWidth="0" componentLabelVisible="0"
+               componentLabelAlwaysOnTop="1" componentSentBack="0" componentLabelColour="0xff000000"
+               componentLabelFont="&lt;Sans-Serif&gt;;12;0;0;0;0;1;3" componentVisibleName="modulator-3"
+               componentMouseCursor="2" componentGroupName="" componentGroupped="0"
+               componentSnapSize="0" componentIsLocked="0" componentDisabled="0"
+               componentRadioGroupId="0" componentRadioGroupNotifyMidi="1" componentVisibility="1"
+               componentEffect="0" componentEffectRadius="1" componentEffectColour="0xff000000"
+               componentEffectOffsetX="0" componentEffectOffsetY="0" componentExcludedFromLabelDisplay="0"
+               componentValueDecimalPlaces="0" componentLuaMouseMoved="-- None"
+               componentLuaMouseDown="-- None" componentLuaMouseDrag="-- None"
+               componentLuaMouseDoubleClick="-- None" uiLabelBgColour="0x00000000"
+               uiLabelTextColour="ff5577dd" uiLabelOutline="0" uiLabelOutlineColour="0x00000000"
+               uiLabelJustification="centred" uiLabelFitFont="0" uiLabelFont="&lt;Sans-Serif&gt;;14;0;0;0;0;1;3"
+               uiLabelText="Stereo 44.1kHz S/PDIF Digital Output" uiLabelDisplaysAllValues="0"
+               uiLabelDisplayFormat="%n(%N) = %v(%h)" uiLabelInputHighlightTextColour="0xffffffff"
+               uiLabelInputHighlightColour="0xff0000ff" uiLabelEditOnSingleClick="0"
+               uiLabelEditOnDoubleClick="0" uiLabelEditFocusDiscardsChanges="1"
+               uiLabelInputAllowedChars="" uiLabelInputMaxLength="1024" uiLabelChangedCbk="-- None"
+               uiType="uiLabel" componentRectangle="144 24 173 27" componentLayerUid="641a7ab2ebc6010000622de2947f0000"/>
+  </modulator>
+  <modulator modulatorCustomIndex="0" modulatorCustomIndexGroup="0" modulatorIsStatic="1"
+             name="modulator-4" modulatorVstExported="0" modulatorValue="0">
+    <component componentLabelPosition="top" componentLabelJustification="centred"
+               componentLabelHeight="14" componentLabelWidth="0" componentLabelVisible="0"
+               componentLabelAlwaysOnTop="1" componentSentBack="0" componentLabelColour="0xff000000"
+               componentLabelFont="&lt;Sans-Serif&gt;;12;0;0;0;0;1;3" componentVisibleName="modulator-4"
+               componentMouseCursor="2" componentGroupName="" componentGroupped="0"
+               componentSnapSize="0" componentIsLocked="0" componentDisabled="0"
+               componentRadioGroupId="0" componentRadioGroupNotifyMidi="1" componentVisibility="1"
+               componentEffect="0" componentEffectRadius="1" componentEffectColour="0xff000000"
+               componentEffectOffsetX="0" componentEffectOffsetY="0" componentExcludedFromLabelDisplay="0"
+               componentValueDecimalPlaces="0" componentLuaMouseMoved="-- None"
+               componentLuaMouseDown="-- None" componentLuaMouseDrag="-- None"
+               componentLuaMouseDoubleClick="-- None" uiImageResource="logo"
+               componentTabId="5" componentTabName="" componentLayerUid="641a7ab2ebc6010000622de2947f0000"
+               componentRectangle="400 8 193 58" uiType="uiImage"/>
   </modulator>
 </panel>
